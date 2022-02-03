@@ -1,0 +1,46 @@
+.tab-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    height: 35vh;
+
+}
+
+.tab-menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 60%;
+    padding-left: 4%;
+
+    background-color: rgb(223, 219, 219);
+}
+
+.select-tab-elem{
+    flex-grow: 1;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    background-color: rgb(31, 31, 175);
+    color: white;
+    text-align: left;
+    padding: 15px 10px;
+    transition: 0.5s;
+}
+
+.tab-elem{
+    flex-grow: 1;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0);
+    color: gray;
+    text-align: left;
+    padding: 15px 10px;
+
+}
+
+.tab-content{
+    width: 60%;
+    height: 25vh;
+    text-align: center;
+    line-height: 25vh;
+}

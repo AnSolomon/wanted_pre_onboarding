@@ -1,0 +1,90 @@
+.autoComplete-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.autoComplete-body-init{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    border: 1px solid rgb(216, 214, 214);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.autoComplete-body-init:focus-within{
+    box-shadow: 0px 4px 2px 1px rgba(0,0,0,0.2);
+}
+
+.autoComplete-body-focus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    border: 1px solid rgb(216, 214, 214);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-shadow: 0px 4px 2px 1px rgba(0,0,0,0.2);
+
+}
+
+.autoComplete-input{
+    cursor:default;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    text-indent: 15px;
+    width: 100%;
+    height: 90%;
+    font-family:initial;
+    font-size: 10pt;
+}
+
+.autoComplete-init{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 3vh;
+
+}
+
+.autoComplete-search{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 3vh;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid rgb(206, 202, 202);
+
+}
+
+.autoComplete-delete{
+    margin-right: 15px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.autoComplete-word{
+    width: 100%;
+    text-align: left;
+    text-indent: 16px;
+    font-size: 10pt;
+    font-family:initial;
+
+}
+
+.autoComplete-word:hover{
+    cursor:default;
+    background-color: rgb(206, 202, 202);
+}

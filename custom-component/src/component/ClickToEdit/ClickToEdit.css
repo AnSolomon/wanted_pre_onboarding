@@ -1,0 +1,30 @@
+.clickToEdit-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height:  20vh;
+    margin-top: 50px;
+}
+
+.clickToEdit-elem{
+    display: flex;
+    height: 20vh;
+}
+
+.clickToEdit-input{
+    width: 150px;
+    height: 30px;
+    margin-left: 15px;
+
+    outline-color: navy;
+    text-align: center;
+
+}
+
+.clickToEdit-display{
+    width: 150px;
+    height: 30px;
+    margin-left: 15px;
+    border: 1px solid lightgray
+}
